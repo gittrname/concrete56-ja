@@ -21,6 +21,7 @@ RUN cd /tmp && \
 
 RUN echo php_value default_charset UTF-8 > /var/www/html/.htaccess && \
         echo php_value mbstring.language neutral >> /var/www/html/.htaccess && \
-        echo php_value mbstring.internal_encoding UTF-8 >> /var/www/html/.htaccess
+        echo php_value mbstring.internal_encoding UTF-8 >> /var/www/html/.htaccess && \
+        echo php_flag mbstring.encoding_translation Off >> /var/www/html/.htaccess
 
 EXPOSE 80 443
