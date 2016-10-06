@@ -1,9 +1,9 @@
 concrete56-ja
 ================
 
-chriswayg/apache-php‚ðƒx[ƒX‚Éì¬‚µ‚½
+chriswayg/apache-phpã‚’ãƒ™ãƒ¼ã‚¹ã«ä½œæˆã—ãŸ
 
-concrete5.6 “ú–{Œê”ÅDockerƒRƒ“ƒeƒi‚ðì¬‚·‚éDockerfile‚Å‚·B
+concrete5.6 æ—¥æœ¬èªžç‰ˆDockerã‚³ãƒ³ãƒ†ãƒŠã‚’ä½œæˆã™ã‚‹Dockerfileã§ã™ã€‚
 
 ###Usage:
 
@@ -11,4 +11,4 @@ git clone http://git.ranran.mydns.jp/ranpei/concrete56-ja.git
 
 docker build -t concrete56-ja concrete56-ja
 
-docker run -d --name pdns -p 80:80 -p 443:443 concrete56-ja:latest
+docker run -d --name concrete56 -p 80:80 -p 443:443 concrete56-ja:latest
